@@ -161,6 +161,42 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="tight">
+        <div className="wrap">
+          <div className="impact-teaser">
+            <div className="it-copy">
+              <span className="it-tag">
+                <Icon name="pin" size={15} />
+                মাঠের উদাহরণ · বাগাতিপাড়া, নাটোর
+              </span>
+              <h2>ইমপ্যাক্ট প্রকল্প: খামারের বর্জ্যে চলছে প্রায় ৩৯৭ পরিবারের জ্বালানি</h2>
+              <p>
+                যুব ও ক্রীড়া মন্ত্রণালয়ের অধীন ইমপ্যাক্ট প্রকল্প গবাদিপশু ও হাঁস-মুরগির খামারের বর্জ্য থেকে গ্যাস ও বিদ্যুৎ
+                উৎপাদন করছে, আর গ্রামীণ যুব ও নারীদের দিচ্ছে খামার স্থাপনের প্রশিক্ষণ।
+              </p>
+              <Link href="/impact" className="btn lg on-deep">
+                প্রকল্পের বিস্তারিত
+                <Icon name="arrow" size={18} />
+              </Link>
+            </div>
+            <dl className="it-stats">
+              <div>
+                <dt>বায়োগ্যাস ব্যবহারকারী পরিবার</dt>
+                <dd>~৩৯৭</dd>
+              </div>
+              <div>
+                <dt>উৎপাদন</dt>
+                <dd>গ্যাস ও বিদ্যুৎ</dd>
+              </div>
+              <div>
+                <dt>প্রশিক্ষণ</dt>
+                <dd>যুব ও নারী</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
       <section className="alt tight">
         <div className="wrap">
           <div className="helplines">

@@ -65,7 +65,7 @@ export default function SiteNav() {
             </span>
           </Link>
           <nav className="mast" aria-label="প্রধান নেভিগেশন">
-            {SITE_NAV.map((n) => (
+            {SITE_NAV.filter((n) => n.header !== false).map((n) => (
               <Link
                 key={n.href}
                 href={n.href}
